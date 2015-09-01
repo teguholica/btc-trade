@@ -7,8 +7,7 @@
             "email": "teguholica@gmail.com"
         }
     ],
-    "require-dev": {
-        "php": ">=5.4.0",
+    "require": {
         "thed1360/array-helper": "dev-master",
         "coinbase/coinbase": "dev-master",
         "payward/kraken-api-client": "dev-master",
@@ -31,8 +30,6 @@
             "type": "git"
         }
     ],
-    "require-all" : true,
-    "require-dependencies": true,
     "autoload": {
         "psr-0": {
             "BitcoinExchange": "src"
