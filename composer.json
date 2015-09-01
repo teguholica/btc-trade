@@ -1,10 +1,10 @@
 {
-    "name": "thed1360/btc-ex",
-    "description": "Wrapping library for multiple BTC exchange protocols",
+    "name": "teguholica/btc-trade",
+    "description": "btc-ex with bitcoin.co.id",
     "authors": [
         {
-            "name": "Diego Alejos",
-            "email": "lego.admin@gmail.com"
+            "name": "Teguh Arifianto",
+            "email": "teguholica@gmail.com"
         }
     ],
     "require": {
@@ -12,7 +12,7 @@
         "thed1360/array-helper": "dev-master",
         "coinbase/coinbase-php" : "dev-master",
         "payward/kraken-api-client": "dev-master",
-        "undelete/btce-api": "dev-master",
+        "teguholica/bitcoin-idapi": "dev-master",
         "willmoss/bitstamp-php-api" : "dev-master",
         "thed1360/camp-bx-php": "dev-master"
 
