@@ -7,10 +7,10 @@
             "email": "teguholica@gmail.com"
         }
     ],
-    "require": {
+    "require-dev": {
         "php": ">=5.4.0",
         "thed1360/array-helper": "dev-master",
-        "coinbase/coinbase": "^2.0",
+        "coinbase/coinbase": "dev-master",
         "payward/kraken-api-client": "dev-master",
         "teguholica/bitcoin-idapi": "dev-master",
         "willmoss/bitstamp-php-api" : "dev-master",
