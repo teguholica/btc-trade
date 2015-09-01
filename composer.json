@@ -1,0 +1,36 @@
+{
+    "name": "thed1360/btc-ex",
+    "description": "Wrapping library for multiple BTC exchange protocols",
+    "authors": [
+        {
+            "name": "Diego Alejos",
+            "email": "lego.admin@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "thed1360/array-helper": "dev-master",
+        "coinbase/coinbase-php" : "dev-master",
+        "payward/kraken-api-client": "dev-master",
+        "undelete/btce-api": "dev-master",
+        "willmoss/bitstamp-php-api" : "dev-master",
+        "thed1360/camp-bx-php": "dev-master"
+
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:theD1360/bitstamp-php-api.git"
+        },
+        {
+            "type": "vcs",
+            "url":  "git@github.com:theD1360/CampBX-PHP.git"
+        }
+    ],
+    "require-all" : true,
+    "autoload": {
+        "psr-0": {
+            "BitcoinExchange": "src"
+        }
+    }
+}
